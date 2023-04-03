@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { avatar } from "../components/info";
+import { avatar } from "../lib/info";
 export default function AboutPage() {
   return (
     <section className="grid grid-cols-2 gap-x-4">
