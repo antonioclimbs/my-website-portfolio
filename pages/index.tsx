@@ -17,18 +17,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p className='text-xl font-medium'>
-            Antonio Jesus Ayala
-            {/* <span className='text-l'> and </span>
-            <code className={styles.code}>Software Engineer</code> */}
-          </p>
+        <Header />
+        {/* <div className={styles.description}>
+          <Link href='/'>
+            <p className='text-xl font-medium'>
+              Antonio Jesus Ayala
+            </p>
+          </Link>
           <div>
             Software Engineer and Web Developer
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.center}>
           <Image
