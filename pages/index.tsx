@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
+import Header from 'components/header';
 import { Inter } from 'next/font/google'
 import { name, about, bio, tagline, avatar } from '../lib/info';
 import styles from '../styles/Home.module.css';
@@ -16,28 +17,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+          <p className='text-xl font-medium'>
+            Antonio Jesus Ayala
+            {/* <span className='text-l'> and </span>
+            <code className={styles.code}>Software Engineer</code> */}
           </p>
           <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+            Software Engineer and Web Developer
           </div>
         </div>
 
@@ -119,7 +108,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
+      </main >
     </>
   )
 }
