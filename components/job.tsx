@@ -6,9 +6,11 @@ interface JobProps {
 
 export default function Job(props: JobProps) {
   const { job, description, title } = props
+  let i = 0;
   const bullets: JSX.Element[] = description.map((des) => {
+    i++
     return (
-      <h3 className="my-3 text-xl text-orange-800 dark:text-orange-100">
+      <h3 className="my-3 text-xl text-orange-800 dark:text-orange-100" key={i}>
         {des}
       </h3>
     )
