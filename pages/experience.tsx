@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Learn more about my past experience.',
 };
 
-export default async function ExperiencePage() {
+export default function ExperiencePage() {
   return (
     <section>
       <h1 className="font-bold text-5xl font-serif mb-5">Experience</h1>
