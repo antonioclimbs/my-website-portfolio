@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useMDXComponent } from 'next-contentlayer/hooks';
+// import { useMDXComponent } from 'next-contentlayer/hooks';
 import Tweet from './tweet';
 
 const CustomLink = (props) => {
@@ -101,7 +101,7 @@ interface MdxProps {
   code: string;
   tweets: Record<string, any>;
 }
-
+/*
 export function Mdx({ code, tweets }: MdxProps) {
   const Component = useMDXComponent(code);
   const StaticTweet = ({ id }) => {
@@ -115,3 +115,4 @@ export function Mdx({ code, tweets }: MdxProps) {
     </article>
   );
 }
+*/
