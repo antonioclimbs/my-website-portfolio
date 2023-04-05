@@ -1,11 +1,13 @@
 import Image from "next/image";
 import { avatar } from "../lib/info";
+import styles from '../styles/Home.module.css';
+
 export default function AboutPage() {
   return (
-    <section className="grid grid-cols-2 gap-x-4">
+    <section className={styles.main}>
       <h1 className="font-bold text-5xl font-serif">About Me</h1>
       <br></br>
-      <p className="my-5 text-xl text-orange-100 dark:text-orange-100">
+      <p className="my-5">
         My name is Antonio and I enjoy creating things that live on the internet. My interest in web development is driven by curiosity and passion. I thoroughly enjoy a challenge and want the end result to be stimulating.
         <br></br>
         <br></br>

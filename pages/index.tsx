@@ -19,16 +19,6 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header />
-        {/* <div className={styles.description}>
-          <Link href='/'>
-            <p className='text-xl font-medium'>
-              Antonio Jesus Ayala
-            </p>
-          </Link>
-          <div>
-            Software Engineer and Web Developer
-          </div>
-        </div> */}
 
         <div className={styles.center}>
           <Image

@@ -1,0 +1,41 @@
+[
+  {
+    "job": "Codesmith",
+    "title": "Software Engineer - Technical Mentor",
+    "description": [
+      "- Performed code review on a full-stack Reach/Node codebase and led mentoring sessions with junior engineers to provide feedback to promot DRYness, modularity, and best practices, fostering an inclusive work environment",
+      "- Conducted onboarding and training for engineers in full-stack development technologies, including TypeScript, React/Redux, Node/Express, NoSQL/SQL databases, and testing, to guarantee successful product launch utilizing these technologies",
+      "- Interviewed and evaluated potential candidates on their technical understanding of fundamental JavaScript concepts such as closures, recursion, callbacks, and higher-order functions",
+      "- Led regular agile/scrum stand-ups with junior engineers to promote asynchronous workflows and accountability, ensuring all team members could maintain progress and meet deadlines"
+    ]
+  },
+  {
+    "job": "Starbourne Labs",
+    "title": "Software Engineer",
+    "description": [
+      "- Integrated TypeScript throughout server and database models, streamlining the debugging process by catching compilation errors during development, and improving the onboarding process",
+      "- Implemented Node/Express server to handle user load with event-driven, non-blocking calls, integrating custom multi-layer middleware controlling dynamic responses to execute asynchronous tasks against a relational database to serve client data",
+      "- Leveraged Sequelize to streamline data migration within a PostgreSQL database and make rapid queries with eager loading, boosting server performance by minimizing server latency and reducing development time by eliminating repetitive code",
+      "- Utilized WebSockets to open a two-way, interactive communication session between the user and server, allowing users to connect to their devices and receive event-driven responses without waiting for the server for a reply"
+    ]
+  },
+  {
+    "job": "ad3lie",
+    "title": "Software Engineer",
+    "description": [
+      "Integrated Electron to build a cross-platform application to employ the Chromium web browser to handle functionality such as API calls and working with a file system, replacing the need for an additional server",
+      "Leveraged D3 for its ability to create customizable and unique data visualization SVG elements within React components, providing more functionality for any user when designing their React project",
+      "Rectified DOM and virtual DOM conflicts between D3 and React by reformatting D3 syntax to await for all React components to mount, resolving infinite loops caused by asynchronous DOM and virtual DOM manipulation",
+      "Modularized stateful components with Redux Hooks and React Hooks to simplify core components to handle all sub-components directly, streamlining the transfer of state and reducing excessive rendering to optimize performance",
+      "Configured webpack to transpile the application with uglification and minification to serve smaller bundle sizes and improve load times in production, while configuring hot module replacement during development"
+    ]
+  },
+  {
+    "job": "HireSmith",
+    "title": "Software Engineer",
+    "description": [
+      "Secured user information by incorporating OAuth with Passport and stored all user information in MongoDB, minimizing security threats through third-party authentication and handling data via compressed documents to perform queries quickly",
+      "Created a test-generation suite using Jest and Supertest to validate application endpoints in a human-readable syntax for ease of debugging and code maintainability, producing unit and server tests to ensure proper backend functionality and integrity"
+    ]
+  }
+]
