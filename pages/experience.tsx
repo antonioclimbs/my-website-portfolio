@@ -24,7 +24,6 @@ export default function ExperiencePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <section className={styles.main}>
-        <Header />
         <h1 className="font-bold text-5xl font-serif mb-5">Experience</h1>
         {allJobs}
       </section>

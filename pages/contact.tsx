@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Form from './form';
+import Form from './contact/form';
 
 export const metadata: Metadata = {
   title: 'Contact',
