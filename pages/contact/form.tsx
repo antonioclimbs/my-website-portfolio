@@ -11,7 +11,7 @@ export default function Form() {
             <input
               type="text"
               name="name"
-              className="border-solid border-orange-100 bg-orange-50 rounded mr-10 w-1/2"
+              className="bg-neutral-100 rounded mr-10 w-1/2"
               placeholder="Full Name"
               required>
             </input>
