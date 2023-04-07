@@ -22,12 +22,12 @@ const navItems = {
 export default function Header() {
   let pathname = usePathname() || '/';
   return (
-    <div className="lg:sticky lg:top-20">
+    <div className={styles.navbar}>
       <nav
-        className="relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+        className=""
         id="nav"
       >
-        <div className={styles.description}>
+        <div className={styles.mainheader}>
           <Link href='/'>
             <p className='text-xl font-medium'>
               Antonio Jesus Ayala
@@ -40,16 +40,16 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="w-full space-x-0 pr-10 mb-2 mt-2 md:mt-0">
+        <div className="">
           {Object.entries(navItems).map(([path, { name }]) => {
             const isActive = path === pathname;
             return (
               <Link
                 key={path}
                 href={path}
-                className={styles.description}
+                className=""
               >
-                <span className="relative py-[5px] px-[10px]">
+                <span className={styles.paths}>
                   {name}
                 </span>
               </Link>
