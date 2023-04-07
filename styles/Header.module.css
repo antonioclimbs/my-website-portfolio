@@ -1,7 +1,7 @@
 .mainheader {
   font-size: 0.90rem;
   max-width: var(--max-width);
-  width: 100%;
+  width: fit-content;
   font-family: var(--font-mono);
   padding-left: 10%;
   padding-top: 2%;
@@ -9,6 +9,7 @@
 
 .mainheader a {
   display: flex;
+  width: fit-content;
   gap: 0.5rem;
   padding-bottom: 10px
 }
@@ -16,7 +17,6 @@
 .mainheader p {
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
   border: 2px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
@@ -27,54 +27,23 @@
 
 .paths {
   font-size: 0.90rem;
-  /* max-width: var(--max-width); */
+  max-width: var(--max-width);
   width: 100%;
   font-family: var(--font-mono);
   padding-left: 2rem;
-}
-
-.paths p {
-  position: relative;
   margin: 0;
   padding-left: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
 }
-
-/* .paths span {
-  margin: 0.5rem;
-  padding: 10px;
-} */
-
-/* .navbar { */
-/* align-items: center;
-  position: sticky;
-  width: var(--max-width);
-  max-width: 100%; */
-/* display: grid; */
-/* grid-template-columns: repeat(4, minmax(25%, auto)); */
-/* } */
 
 .navbar {
   display: flex;
   align-items: center;
-  min-height: 8vh;
   top: 0;
   width: 100%;
-  background-color: rgba(var(--callout-rgb), 1);
+  background-color: rgba(255, 255, 255, 0);
   position: fixed;
   padding-bottom: 1%;
 }
-
-/* .navbar::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  opacity: 0.4;
-} */
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

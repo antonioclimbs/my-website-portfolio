@@ -38,7 +38,6 @@ export default function Header() {
 
       <div className="">
         {Object.entries(navItems).map(([path, { name }]) => {
-          const isActive = path === pathname;
           return (
             <Link
               key={path}
