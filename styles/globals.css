@@ -99,3 +99,9 @@ a {
     color-scheme: dark;
   }
 }
+
+@media (max-width: 700px) {
+  body {
+    padding-top: 70px;
+  }
+}

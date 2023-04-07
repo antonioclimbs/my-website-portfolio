@@ -27,8 +27,6 @@ export default function Header() {
         <Link href='/'>
           <p className='text-xl font-medium'>
             Antonio Jesus Ayala
-            {/* <span className='text-l'> and </span>
-            <code className={styles.code}>Software Engineer</code> */}
           </p>
         </Link>
         <span>
@@ -36,7 +34,7 @@ export default function Header() {
         </span>
       </div>
 
-      <div className="">
+      <div className={styles.mobilepaths}>
         {Object.entries(navItems).map(([path, { name }]) => {
           return (
             <Link
