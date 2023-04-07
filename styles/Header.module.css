@@ -3,14 +3,14 @@
   max-width: var(--max-width);
   width: 100%;
   font-family: var(--font-mono);
-  display: grid;
-  flex-direction: column;
-  align-content: center;
+  padding-left: 10%;
+  padding-top: 2%;
 }
 
 .mainheader a {
   display: flex;
   gap: 0.5rem;
+  padding-bottom: 10px
 }
 
 .mainheader p {
@@ -21,29 +21,29 @@
   border-radius: var(--border-radius);
 }
 
+.mainheader span {
+  padding: 10px;
+}
+
 .paths {
   font-size: 0.90rem;
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   width: 100%;
   font-family: var(--font-mono);
-  border-radius: 5px;
-  border: white 2px;
-  display: inline;
-  columns: 4;
-  column-width: 25%;
+  padding-left: 2rem;
 }
 
 .paths p {
   position: relative;
   margin: 0;
-  padding: 1rem;
+  padding-left: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
 }
 
-.paths span {
+/* .paths span {
   margin: 0.5rem;
-  padding: 0.4rem 0.6rem;
-}
+  padding: 10px;
+} */
 
 /* .navbar { */
 /* align-items: center;
@@ -57,15 +57,15 @@
 .navbar {
   display: flex;
   align-items: center;
-  align-items: center;
   min-height: 8vh;
-  position: fixed;
   top: 0;
   width: 100%;
-  background-color: inherit;
+  background-color: rgba(var(--callout-rgb), 1);
+  position: fixed;
+  padding-bottom: 1%;
 }
 
-.navbar::before {
+/* .navbar::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -74,7 +74,7 @@
   width: 100%;
   z-index: -1;
   opacity: 0.4;
-}
+} */
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
