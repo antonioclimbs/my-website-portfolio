@@ -5,6 +5,16 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: var(--secondary-glow);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding-top: 6rem;
+  min-height: 100vh;
 }
 
 .description {
