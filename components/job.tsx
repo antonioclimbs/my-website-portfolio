@@ -19,9 +19,9 @@ export default function Job(props: JobProps) {
       )
     })
   return (
-    <section >
-      <div className="grid grid-flow-col">
-        <h2 className="">{job}</h2>
+    <section className={''}>
+      <div className="grid grid-flow-col pb-5">
+        <h2 className=''>{job}</h2>
         <span className="text-right">{title}</span>
       </div>
       <ul className="">

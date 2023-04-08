@@ -1,6 +1,12 @@
+import type { Metadata } from 'next';
 import Image from "next/image";
 import { avatar } from "../lib/info";
 import styles from '../styles/Home.module.css';
+
+export const metadata: Metadata = {
+  title: 'About',
+  description: 'A little about me.',
+};
 
 export default function AboutPage() {
   return (

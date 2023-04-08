@@ -8,6 +8,12 @@
   background: var(--secondary-glow);
 }
 
+.name {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -87,7 +93,6 @@
 }
 
 .center {
-  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
