@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 10%;
-  padding-top: 70px;
   min-height: 100vh;
   background: var(--secondary-glow);
 }
@@ -21,7 +20,7 @@
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 10%;
   min-height: 100vh;
   background: var(--secondary-glow);
   border: solid rgba(var(--callout-border-rgb), 0.3);
@@ -36,10 +35,6 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
-}
-
-.center h3 {
-  padding-top: 100px;
 }
 
 .description a {

@@ -23,19 +23,35 @@
     "job": "ad3lie",
     "title": "Software Engineer",
     "description": [
-      "Integrated Electron to build a cross-platform application to employ the Chromium web browser to handle functionality such as API calls and working with a file system, replacing the need for an additional server",
-      "Leveraged D3 for its ability to create customizable and unique data visualization SVG elements within React components, providing more functionality for any user when designing their React project",
-      "Rectified DOM and virtual DOM conflicts between D3 and React by reformatting D3 syntax to await for all React components to mount, resolving infinite loops caused by asynchronous DOM and virtual DOM manipulation",
-      "Modularized stateful components with Redux Hooks and React Hooks to simplify core components to handle all sub-components directly, streamlining the transfer of state and reducing excessive rendering to optimize performance",
-      "Configured webpack to transpile the application with uglification and minification to serve smaller bundle sizes and improve load times in production, while configuring hot module replacement during development"
+      "- Integrated Electron to build a cross-platform application to employ the Chromium web browser to handle functionality such as API calls and working with a file system, replacing the need for an additional server",
+      "- Leveraged D3 for its ability to create customizable and unique data visualization SVG elements within React components, providing more functionality for any user when designing their React project",
+      "- Rectified DOM and virtual DOM conflicts between D3 and React by reformatting D3 syntax to await for all React components to mount, resolving infinite loops caused by asynchronous DOM and virtual DOM manipulation",
+      "- Modularized stateful components with Redux Hooks and React Hooks to simplify core components to handle all sub-components directly, streamlining the transfer of state and reducing excessive rendering to optimize performance",
+      "- Configured webpack to transpile the application with uglification and minification to serve smaller bundle sizes and improve load times in production, while configuring hot module replacement during development"
     ]
   },
   {
     "job": "HireSmith",
     "title": "Software Engineer",
     "description": [
-      "Secured user information by incorporating OAuth with Passport and stored all user information in MongoDB, minimizing security threats through third-party authentication and handling data via compressed documents to perform queries quickly",
-      "Created a test-generation suite using Jest and Supertest to validate application endpoints in a human-readable syntax for ease of debugging and code maintainability, producing unit and server tests to ensure proper backend functionality and integrity"
+      "- Secured user information by incorporating OAuth with Passport and stored all user information in MongoDB, minimizing security threats through third-party authentication and handling data via compressed documents to perform queries quickly",
+      "- Created a test-generation suite using Jest and Supertest to validate application endpoints in a human-readable syntax for ease of debugging and code maintainability, producing unit and server tests to ensure proper backend functionality and integrity",
+      "- Implemented TypeScript throughout all React components, streamlining the debugging process by catching compilation errors at the time of development, and improving the onboarding process for new developers by clearly communicating expectations"
+    ]
+  },
+  {
+    "job": "Much Media",
+    "title": "Software Engineer",
+    "description": [
+      "- Incorporated React Hooks for efficient use of React's native state management and consistent functional component structure, allowing for reusability and modularity between stateful components, resulting in a clean and dry codebase",
+      "- Overhauled backend by including Express.js for server templating and management, flexible routing, and accurate and layered error handling for rapid programming and server-side development with a single, nonblocking thread of execution"
+    ]
+  },
+  {
+    "job": "Much Media",
+    "title": "Software Engineer",
+    "description": [
+      "- Designed and created a SQL database to handle sorting logic and modularize column data to optimize performance of all queries, utilizing its ability to efficiently execute complex queries against structured data and join data across tables"
     ]
   }
 ]
