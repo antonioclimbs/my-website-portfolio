@@ -20,11 +20,10 @@ const navItems = {
 };
 
 export default function Header() {
-  let pathname = usePathname() || '/';
   return (
     <nav className={styles.navbar}>
       <div className={styles.mainheader}>
-        <Link href='/'>
+        <Link href='/' className='flex'>
           <p className='text-xl font-medium'>
             Antonio Jesus Ayala
           </p>
@@ -34,7 +33,7 @@ export default function Header() {
         </span>
       </div>
 
-      <div className={styles.mobilepaths}>
+      <section className=''>
         {Object.entries(navItems).map(([path, { name }]) => {
           return (
             <Link
@@ -48,7 +47,7 @@ export default function Header() {
             </Link>
           );
         })}
-      </div>
+      </section>
     </nav >
   );
 }
