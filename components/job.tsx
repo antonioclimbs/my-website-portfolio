@@ -1,5 +1,3 @@
-import styles from '../styles/Experience.module.css'
-
 interface JobProps {
   job: string
   title: string

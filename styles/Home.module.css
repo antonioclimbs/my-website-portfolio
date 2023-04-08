@@ -1,12 +1,25 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-around; */
   align-items: center;
   padding: 10%;
-  padding-top: 70px;
+  padding-top: 60px;
   min-height: 100vh;
   background: var(--secondary-glow);
+}
+
+.main img {
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  /* grid: 30% / auto */
 }
 
 .name {
@@ -21,10 +34,9 @@
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 60px;
   min-height: 100vh;
   background: var(--secondary-glow);
-  border: solid rgba(var(--callout-border-rgb), 0.3);
 }
 
 .description {
@@ -147,6 +159,13 @@
 
   .card:hover span {
     transform: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main img {
+    width: 50%;
+    height: 50%;
   }
 }
 

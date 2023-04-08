@@ -11,10 +11,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <section className={styles.main}>
-      <h1 className="font-bold text-5xl font-serif">About Me</h1>
-      <div className=''>
-
-        <section className=''>
+      <h1 className="font-bold text-5xl font-serif mb-3">About Me</h1>
+      <div className={styles.about}>
+        <section className='grid grid-rows-5 w-1/2'>
           <p className="my-3">
             My name is Antonio and I enjoy creating things that live on the internet. My interest in web development is driven by curiosity and passion. I thoroughly enjoy a challenge and want the end result to be stimulating.
           </p>
