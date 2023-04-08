@@ -11,28 +11,28 @@ export default function Form() {
             <input
               type="text"
               name="name"
-              className="bg-neutral-100 rounded mr-10 w-1/2"
+              className="border-2 border-neutral-100 bg-neutral-100 p-2 px-2 rounded mr-10 w-1/2"
               placeholder="Full Name"
               required>
             </input>
             <input
               type="email"
               name="email"
-              className="bg-neutral-100 p-2 px-2 rounded text-black-800 w-1/2"
+              className="border-2 border-neutral-100 bg-neutral-100 p-2 px-2 rounded w-1/2"
               placeholder="Email" required>
             </input>
           </div>
           <textarea
             placeholder="Your Message"
             rows={8}
-            className="bg-neutral-100 p-2 px-2 rounded resize"
+            className="border-2 border-neutral-100 bg-neutral-100 p-2 px-2 rounded resize"
             name="message"
             required>
           </textarea>
         </div>
         <button
           type="submit"
-          className='mt-5 border-solid border-2 p-5 px-8 border-neutral-700 rounded-lg text-white text-xl font-medium font-mono'>
+          className='mt-5 border-solid border-2 p-5 px-8 border-white rounded-lg text-white text-xl font-medium font-mono'>
           Submit Form
         </button>
       </form>

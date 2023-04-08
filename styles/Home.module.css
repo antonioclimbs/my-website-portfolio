@@ -16,6 +16,7 @@
   padding-top: 6rem;
   min-height: 100vh;
   background: var(--secondary-glow);
+  border: solid rgba(var(--callout-border-rgb), 0.3);
 }
 
 .description {
