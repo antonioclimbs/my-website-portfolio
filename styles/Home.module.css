@@ -19,7 +19,12 @@
 .about {
   display: flex;
   width: 100%;
+  font-family: monospace;
   /* grid: 30% / auto */
+}
+
+.about {
+  font-size: x-large;
 }
 
 .name {
