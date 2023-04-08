@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Experience.module.css'
 
 interface JobProps {
   job: string
@@ -19,8 +19,8 @@ export default function Job(props: JobProps) {
       )
     })
   return (
-    <section className={''}>
-      <div className="grid grid-flow-col pb-5">
+    <section className='pb-10'>
+      <div className="font-mono text-2xl grid grid-flow-col pb-5">
         <h2 className=''>{job}</h2>
         <span className="text-right">{title}</span>
       </div>

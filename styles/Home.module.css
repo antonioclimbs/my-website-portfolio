@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 10%;
   min-height: 100vh;
   background: var(--secondary-glow);
 }
@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  padding-top: 6rem;
+  padding-top: 10%;
   min-height: 100vh;
   background: var(--secondary-glow);
   border: solid rgba(var(--callout-border-rgb), 0.3);
