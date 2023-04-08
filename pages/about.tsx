@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <section className={styles.main}>
-      <h1 className="font-bold text-5xl font-serif mb-3">About Me</h1>
+      <h1 className="font-bold text-5xl font-serif mb-5">About Me</h1>
       <div className={styles.about}>
         <section className='grid grid-rows-5 w-1/2'>
           <p className="my-3">

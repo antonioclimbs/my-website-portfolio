@@ -4,7 +4,7 @@
   /* justify-content: space-around; */
   align-items: center;
   padding: 10%;
-  padding-top: 60px;
+  padding-top: 80px;
   min-height: 100vh;
   background: var(--secondary-glow);
 }
@@ -34,7 +34,7 @@
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 80px;
   min-height: 100vh;
   background: var(--secondary-glow);
 }
