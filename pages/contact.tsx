@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Form from './contact/form';
+import Form from '../components/form';
 import styles from '../styles/Home.module.css'
 
 export const metadata: Metadata = {
