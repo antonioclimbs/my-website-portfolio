@@ -1,18 +1,14 @@
-// import {
-//   ArrowIcon,
-//   GitHubIcon,
-// } from 'components/icons';
-
 import { GoMarkGithub } from "react-icons/go";
 import { FiMail } from "react-icons/fi"
 import { BsInstagram, BsLinkedin } from "react-icons/bs"
+import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className={styles.footer}>
 
 
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
+      <ul className="flex flex-row space-x-4 space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
         <li>
           <a
             rel="noopener noreferrer"
@@ -26,7 +22,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+            className="flex items-center hover:text-neutral-700 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/antonio-jesus-ayala/"
@@ -37,7 +33,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+            className="flex items-center hover:text-neutral-700 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.instagram.com/ayala.photographs/"
@@ -48,7 +44,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+            className="flex items-center hover:text-neutral-700 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="mailto:ayala.antonio.jesus@gmail.com"
