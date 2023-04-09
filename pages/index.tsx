@@ -1,9 +1,5 @@
-import Head from 'next/head'
 import Link from 'next/link';
-import Image from 'next/image';
-import Header from 'components/header';
 import { Inter } from 'next/font/google'
-import { name, about, bio, tagline, avatar } from '../lib/info';
 import styles from '../styles/Home.module.css';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -12,30 +8,57 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <h3 className={styles.description}>
+        <h4 className={styles.description}>
           Hi, my name is
-        </h3>
+        </h4>
         <br></br>
-        <h1 className={styles.name}>
+        <h1 className='text-5xl font-mono font-bold pb-8'>
           Antonio Jesus Ayala
         </h1>
+        <h2 className='text-3xl font-medium font-serif'>
+          I build your applications and websites
+        </h2>
+        <br></br>
+        <h3 className={styles.description}>
+          I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, interactive applications and websites for companies to promote business.
+        </h3>
       </div>
 
-      {/* <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      <div className={styles.grid}>
+        <Link
+          href="/about"
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
+            About <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Find in-depth information about Next.js features and&nbsp;API.
+            Learn a little about me and some of the technologies that I've been working with recently.
           </p>
-        </a>
-
+        </Link>
+        <Link
+          href="/experience"
+          className={styles.card}
+        >
+          <h2 className={inter.className}>
+            Experience <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            See what projects I've worked on, the different tech I've used, and how I've contributed to the company.
+          </p>
+        </Link>
+        <Link
+          href="/contact"
+          className={styles.card}
+        >
+          <h2 className={inter.className}>
+            Contact <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Get in contact with me and let's discuss how we can work together towards creating something exciting.
+          </p>
+        </Link>
+        {/*
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -77,8 +100,8 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL
             with&nbsp;Vercel.
           </p>
-        </a>
-      </div> */}
+        </a>*/}
+      </div>
     </main >
   )
 }

@@ -18,11 +18,11 @@ export default function Job(props: JobProps) {
     })
   return (
     <section className='pb-10'>
-      <div className="font-mono text-2xl grid grid-flow-col pb-5">
+      <div className="text-3xl grid grid-flow-col pb-5 font-bold font-mono">
         <h2 className=''>{job}</h2>
-        <span className="text-right">{title}</span>
+        <span className="text-right pl-8">{title}</span>
       </div>
-      <ul className="">
+      <ul className="font-mono">
         {bullets}
       </ul>
     </section>

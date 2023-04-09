@@ -27,13 +27,6 @@
   font-size: x-large;
 }
 
-.name {
-  font-size: 3rem;
-  line-height: 1;
-  font-weight: bold;
-  font-family: 'Kaisei Tokumin', serif;
-}
-
 .contact {
   display: flex;
   flex-direction: column;
@@ -48,15 +41,15 @@
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }
 
-.center h3 {
+.center h4 {
   padding-top: 100px;
+  font-size: 0.85rem;
 }
 
 .description a {
@@ -84,13 +77,14 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(3, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
 }
 
 .card {
   padding: 1rem 1.2rem;
+  width: fit-content;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
@@ -119,6 +113,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 60%;
+  padding-bottom: 60px;
 }
 
 .center::before {
