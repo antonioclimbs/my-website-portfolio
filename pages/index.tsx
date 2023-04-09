@@ -20,7 +20,7 @@ export default function Home() {
         </h2>
         <br></br>
         <h3 className={styles.description}>
-          I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, interactive applications and websites for companies to promote business.
+          I&apos;m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on building accessible, interactive applications and websites for companies to promote business.
         </h3>
       </div>
 
@@ -33,7 +33,7 @@ export default function Home() {
             About <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Learn a little about me and some of the technologies that I've been working with recently.
+            Learn a little about me and some of the technologies that I&apos;ve been working with&nbsp;recently.
           </p>
         </Link>
         <Link
@@ -44,7 +44,7 @@ export default function Home() {
             Experience <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            See what projects I've worked on, the different tech I've used, and how I've contributed to the company.
+            See what projects I&apos;ve worked on, the different tech I&apos;ve used, and how I&apos;ve contributed to the&nbsp;company.
           </p>
         </Link>
         <Link
@@ -55,7 +55,7 @@ export default function Home() {
             Contact <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Get in contact with me and let's discuss how we can work together towards creating something exciting.
+            Get in contact with me and let&apos;s discuss how we can work together towards creating something&nbsp;exciting.
           </p>
         </Link>
         {/*
