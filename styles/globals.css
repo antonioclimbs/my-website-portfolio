@@ -76,6 +76,10 @@
   margin: 0;
 }
 
+html {
+  color-scheme: dark;
+}
+
 html,
 body {
   max-width: 100vw;
