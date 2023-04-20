@@ -48,7 +48,7 @@
     ]
   },
   {
-    "job": "Much Media",
+    "job": "Alotl Media",
     "title": "Software Engineer",
     "description": [
       "- Designed and created a SQL database to handle sorting logic and modularize column data to optimize performance of all queries, utilizing its ability to efficiently execute complex queries against structured data and join data across tables"
